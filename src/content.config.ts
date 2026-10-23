@@ -19,7 +19,7 @@ const resumes = defineCollection({
             .string()
             .regex(
               slugRegex,
-              'Avatar must be a slug (lowercase, hyphenated, no path or extension), e.g. "morgan-hale"',
+              'Avatar must be a slug (lowercase, hyphenated, no path or extension), e.g. "briton-frank"',
             ),
           avatarAlt: z.string().optional(),
           location: z.string().optional(),

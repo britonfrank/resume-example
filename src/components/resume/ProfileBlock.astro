@@ -1,4 +1,6 @@
 ---
+import { existsSync } from "node:fs";
+import path from "node:path";
 import type { CollectionEntry } from "astro:content";
 import { withBase } from "../../lib/url";
 
@@ -10,11 +12,25 @@ interface Props {
 
 const { profile } = Astro.props;
 const alt = profile.avatarAlt ?? profile.name;
+
+const avatarExtensions = ["jpg", "jpeg", "png", "webp", "svg"] as const;
+const avatarExt =
+  avatarExtensions.find((ext) =>
+    existsSync(
+      path.join(
+        process.cwd(),
+        "public",
+        "images",
+        "resumes",
+        `${profile.avatar}.${ext}`,
+      ),
+    ),
+  ) ?? "svg";
 ---
 
 <div class="resume-profile flex flex-col items-center gap-4 text-center">
   <img
-    src={withBase(`/images/resumes/${profile.avatar}.svg`)}
+    src={withBase(`/images/resumes/${profile.avatar}.${avatarExt}`)}
     alt={alt}
     width="160"
     height="160"

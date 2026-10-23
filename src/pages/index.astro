@@ -10,7 +10,7 @@ const resumes = (await getCollection("resumes")).sort((a, b) =>
 
 <Layout
   title="Resumes"
-  description="Host a resume from a YAML file. This repository includes a dev container and one fictional sample."
+  description="Host a resume from a YAML file. This repository includes a dev container and a sample resume."
 >
   <header class="border-b border-black/5">
     <div class="mx-auto flex max-w-[720px] items-center px-6 py-4">
@@ -53,7 +53,7 @@ const resumes = (await getCollection("resumes")).sort((a, b) =>
       <h2 class="text-xl font-semibold">Add a resume</h2>
       <ol class="text-text-secondary mt-4 list-decimal space-y-3 pl-5 leading-relaxed">
         <li>
-          Copy <code>src/content/resumes/morgan-hale.yaml</code>. The filename,
+          Copy <code>src/content/resumes/briton-frank.yaml</code>. The filename,
           without the extension, is the URL slug.
         </li>
         <li>
@@ -68,9 +68,9 @@ const resumes = (await getCollection("resumes")).sort((a, b) =>
         </li>
       </ol>
       <p class="text-text-tertiary mt-6 text-sm leading-relaxed">
-        Morgan Hale is fictional sample data. Replace that file when you publish
-        your own. Set <code>site</code> in <code>astro.config.mjs</code> before
-        you deploy so the printed page can cite an absolute URL.
+        Replace the sample file when you publish your own. Set <code>site</code> in
+        <code>astro.config.mjs</code> before you deploy so the printed page can
+        cite an absolute URL.
       </p>
     </section>
   </main>

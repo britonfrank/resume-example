@@ -1,0 +1,155 @@
+# The filename (without .yaml) is the URL slug: /resumes/briton-frank/
+
+profile:
+  name: Briton Frank
+  tagline: Full Stack Engineer | UX Designer
+  avatar: briton-frank
+  avatarAlt: Portrait of Briton Frank
+  location: Las Vegas, NV
+
+contact:
+  email: britonfrank@gmail.com
+  phone: 702-427-9334
+  linkedin: briton-frank-41712923
+
+careerProfile:
+  title: Career profile
+  summary: >-
+    Nine years of excellence driving exceptional user experience (UX) and
+    sustainable impact. Uniting coding and technical talent with human
+    behavior and psychology insights to deliver unforgettable digital
+    experiences and creative design solutions that contribute tangible value
+    and joy to target audiences.
+
+experiences:
+
+  - role: Full Stack Software Engineer
+    time: October 2025 - October 2026
+    company: Tallo
+    location: Las Vegas, NV
+    summary: >-
+      A career platform connecting learners with jobs, occupations, courses,
+      and resume tools. Spearheaded the learner web experience, leveraging
+      React and TypeScript to improve search, recommendations, applications,
+      and resume workflows with a consistent, reliable interface.
+    bullets:
+      - Improved job search by replacing basic title lookup with grouped suggestions for roles, companies, and careers, and by aligning pay, location, and date filters with the results on the page.
+      - Rebuilt occupation and recommendation flows so learners can describe their work in their own words and see job suggestions tied to their career path.
+      - Preserved applications, saved jobs, and course favorites when learners move from a signed-out visit into an account, so work started before login is not lost.
+      - Expanded resume tools from in-product editing to file import and assisted fill-in, and refined on-screen preview and PDF export so the document matches what learners expect to share.
+
+  - role: Senior Full Stack Software Engineer
+    time: March 2019 - October 2024
+    company: PLAYSTUDIOS
+    location: Las Vegas, NV
+    summary: >-
+      A leading developer of innovative, interactive, and immersive digital
+      gaming experiences. Spearheaded the development of high-performance
+      user portals, leveraging React and Node.js to enhance functionality and
+      user satisfaction, optimizing C# APIs with MongoDB, engineering Node.js
+      middleware, and mentoring junior engineers to ensure seamless
+      integration, streamlined navigation, and exceptional UX.
+    bullets:
+      - Drove a 50% increase in team productivity, expediting future development time by improving junior engineers' coding via hands-on training while implementing modular and reusable components to improve codebase maintainability.
+      - Enhanced deployment frequency while reducing downtime by 75% by developing and maintaining CI/CD pipelines.
+      - Cut data retrieval times by 10% and error rates by 50%, optimizing C# APIs with MongoDB and engineering Node.js middleware, improving communication between frameworks and components and system agility and reliability.
+      - Increased load speeds by 15% and reduced database query latency by 20% by redesigning front-end architecture and improving back-end scalability with optimized MongoDB data management.
+      - Boosted user engagement by 60% and improved bug detection by integrating third-party APIs and implementing automated testing, ensuring stable releases and minimizing post-deployment issues.
+
+  - role: Software Engineer
+    time: October 2018 - March 2019
+    company: Gimble Corp
+    location: Las Vegas, NV
+    summary: >-
+      A technology company providing custom B2B marketing and operational
+      efficiency software solutions. Developed and deployed custom software
+      solutions that optimized performance, streamlined processes, and boosted
+      client competitiveness by aligning implementations with business
+      objectives and market needs.
+    bullets:
+      - Maintained a record of 100% on-time project delivery, driving a 100% client satisfaction rate, leveraging automation and performance tracking to expedite deliverables, decrease onboarding time, and drive customer retention.
+
+  - role: Software Engineer
+    time: August 2017 - July 2018
+    company: Pololu Robotics
+    location: Las Vegas, NV
+    summary: >-
+      A robotics and automation solutions provider, specializing in customized
+      software and hardware components. Developed and maintained robotics and
+      automation software using C#, .NET, C++, and Qt. Optimized UX, system
+      performance, and database efficiency. Created intuitive GUIs, rigorous
+      testing protocols, and documentation. Collaborated cross-functionally
+      to enhance features, debugging, security, and code efficiency.
+    bullets:
+      - Accelerated database performance by 50% reducing query times by 20%, driving faster access and operational efficiency by executing SQL modifications, redefining database structure, and enhancing data retrieval accuracy.
+      - Expedited troubleshooting, updates, and maintenance by improving documentation, optimizing memory usage, processing speeds, and functionality while aligning software with market needs and driving feature adoption across teams.
+      - Reduced issue resolution time by 20% and manual testing by 50% via automated scripts, stringent testing protocols, and code optimization, enhancing security, debugging, and reliability while minimizing defects and system vulnerabilities.
+
+  - role: Founder | Freelance Project Designer
+    time: June 2015 - August 2017
+    company: Pop Out Tech and Design
+    location: Las Vegas, NV
+    summary: >-
+      A creative agency specializing in transforming digital concepts into
+      reality via web design, software design, and user-centered solutions.
+      Oversees web and software design projects, collaborating with clients
+      to understand their vision while managing design processes to deliver
+      user-friendly, functional, and visually appealing digital products.
+    bullets:
+      - Reduced project delivery times by 50%, optimizing timelines by enhancing collaboration with stakeholders, clients, and development teams to facilitate seamless product launches and high-quality deliverables.
+      - Increased website traffic by 20% while launching 3 websites and apps for clients. Improved UX, brand visibility, and SEO, expediting load times, mobile responsiveness, and integration into marketing campaigns and product launches.
+      - Increased productivity by 30%, revamping design processes, leveraging market research and design tools to align with emerging trends and user needs and preferences to enhance user experience (UX).
+      - Skyrocketed client project approval rates by 100%, client retention rate by 20%, and referrals by 50% by innovating software design prototypes and tailored solutions that aligned with client objectives and incorporated user feedback.
+  - role: Substance Abuse Counselor
+    time: Early career
+    company: WestCare Nevada
+    location: Las Vegas, NV
+    summary: >-
+      A nonprofit organization providing treatment services for individuals
+      living with addiction, mental health issues, and trauma. Drove client
+      satisfaction, retention, and treatment completion rates by conducting
+      assessments, implementing evidence-based treatments, and optimizing care
+      coordination. Built trust via active listening and personalized
+      counseling solutions, adapted to client needs, integrating feedback
+      mechanisms to improve client engagement and outcomes.
+
+skills:
+  - title: Expertise
+    value: >-
+      Customer-centric design, full-stack development, frontend and backend
+      development, storytelling through UI/UX, information, web, and software
+      architecture, microservices, API design and integration, performance
+      optimization, responsive and adaptive design, cross-browser
+      compatibility, database design, UX/UI design and research, user journey
+      mapping, wireframing, human-centered design (HCD), prototyping,
+      interaction design, usability testing, style guides, accessibility
+      standards (WCAG), motion UI, microinteractions, branding, identity
+      systems, design systems, data visualization, infographics, gamification
+      strategies, product strategy, design thinking, product development
+      lifecycle, feature prioritization, MVP development, competitive UX
+      benchmarking
+  - title: Frontend
+    value: JavaScript (ES6+), TypeScript, React.js, Next.js, Vue.js, CSS3 (Flexbox, Grid), Tailwind CSS, Bootstrap, Material UI, GSAP, Lottie
+  - title: Backend
+    value: "Node.js, Express.js, C#, .NET Core, REST APIs, MongoDB"
+  - title: Design
+    value: Figma, Adobe Photoshop, Illustrator, Adobe XD, Sketch, InVision, Principle, Framer
+  - title: Research
+    value: Google Analytics, Hotjar, Crazy Egg, A/B testing (Google Optimize, Optimizely), heatmaps, clickstream analysis, eye-tracking research
+  - title: Accessibility
+    value: ARIA roles and attributes, screen reader compatibility, color contrast and readability, cognitive load optimization
+  - title: Systems
+    value: Git, GitHub, GitLab, WordPress, Webflow, Shopify, Lighthouse, PageSpeed Insights, Slack, Notion, Trello, Jira, Vercel, Netlify, Firebase Hosting, Microsoft Office
+  - title: Collaboration
+    value: Agile, Scrum, Kanban, stakeholder communication, client relationship management, mentorship and training, KPIs
+  - title: Practice
+    value: Empathy, active listening, user advocacy, design persuasion, emotional intelligence, public speaking, conflict resolution, time management, prioritization, adaptability, continuous learning, creative problem-solving, critical thinking
+
+education:
+  - degree: Bachelor of Science, Computer Science
+    university: University of Nevada, Las Vegas
+  - degree: Bachelor of Arts, Psychology
+    university: University of Nevada, Las Vegas
+
+display:
+  educationInSidebar: true

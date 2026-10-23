@@ -4,7 +4,7 @@ A small Astro site for hosting resumes from YAML, and a public example of an ext
 
 The committed container is the toolchain everyone on the repo shares: Node.js 22.14.0, Git, vim, and the Astro, Tailwind, and Prettier extensions. Personal extensions and shell setup live in gitignored files, so one person's theme or git email never lands in the shared config. Details are in [`.devcontainer/README.md`](.devcontainer/README.md).
 
-Resumes are files in [`src/content/resumes`](src/content/resumes). The sample candidate, Morgan Hale, is fictional.
+Resumes are files in [`src/content/resumes`](src/content/resumes). The included resume is Briton Frank.
 
 ## Run it
 
@@ -14,7 +14,7 @@ Open the folder in VS Code or Cursor and choose **Reopen in Container**. When th
 npm run dev
 ```
 
-The site is at [http://localhost:4321](http://localhost:4321). The sample resume is at `/resumes/morgan-hale/`.
+The site is at [http://localhost:4321](http://localhost:4321). The sample resume is at `/resumes/briton-frank/`.
 
 Without a container, use Node.js 22.12 or newer:
 
@@ -38,7 +38,7 @@ Rebuild the container after you change either file.
 
 ## Add a resume
 
-1. Copy [`src/content/resumes/morgan-hale.yaml`](src/content/resumes/morgan-hale.yaml). The filename, without the extension, is the URL slug.
+1. Copy [`src/content/resumes/briton-frank.yaml`](src/content/resumes/briton-frank.yaml). The filename, without the extension, is the URL slug.
 2. Add a portrait at `public/images/resumes/{slug}.svg`. The `avatar` field in the YAML is that same slug.
 3. Run `npm run dev`.
 
